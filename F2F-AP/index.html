@@ -7,34 +7,28 @@
     <meta name="description"
           content="F2F-AP: Flow-to-Future Asynchronous Policy for Real-time Dynamic Manipulation">
     <meta name="author" content="Haoyu Wei,
-                                 Xiuwei Xu,
-                                 Ziyang Cheng,
-                                 Hang Yin,
-                                 Angyuan Ma,
-                                 Bingyao Yu,
-                                 Jie Zhou,
-                                 Jiwen Lu">
+                                Xiuwei Xu,
+                                Ziyang Cheng,
+                                Hang Yin,
+                                Angyuan Ma,
+                                Bingyao Yu,
+                                Jie Zhou,
+                                Jiwen Lu">
 
     <title>F2F-AP: Flow-to-Future Asynchronous Policy for Real-time Dynamic Manipulation</title>
-    <!-- Bootstrap core CSS -->
-    <!--link href="bootstrap.min.css" rel="stylesheet"-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
     <link href="offcanvas.css" rel="stylesheet">
-    <!--    <link rel="icon" href="img/favicon.gif" type="image/gif">-->
 </head>
 
 <body>
-<div class="jumbotron jumbotron-fluid">
-    <div class="container"></div>
-    <h2>F2F-AP: Flow-to-Future Asynchronous Policy for Real-time Dynamic Manipulation</h2>
-    <!-- <h3>ECCV 2024</h3> -->
-<!--            <p class="abstract">An interpretable, data-efficient, and scalable neural scene representation.</p>-->
+<header class="jumbotron jumbotron-fluid">
+    
+    <h1><span class="project-name">F2F-AP:</span> <span class="project-title">Flow-to-Future Asynchronous Policy for Real-time Dynamic Manipulation</span></h1>
     <hr>
     <p>
-        <span style="white-space: nowrap; font-size:larger">
+        <span class="authors">
         <a href="https://why-peace.github.io/">Haoyu Wei</a><sup>1</sup>&nbsp;&nbsp;
         <a href="https://xuxw98.github.io/">Xiuwei Xu</a><sup>1*</sup>&nbsp;&nbsp;
         Ziyang Cheng<sup>1</sup>&nbsp;&nbsp;
@@ -47,72 +41,56 @@
         <br><br>
         <sup>1</sup>Department of Automation, Tsinghua University<br>
         <br><br>
-        <a href="https://arxiv.org/abs/2604.02408" target="_blank" style="color: #1E90FF;">
+        <a href="https://arxiv.org/abs/2604.02408" target="_blank" rel="noopener noreferrer" style="color: #1E90FF;">
             <img src="https://img.icons8.com/material-outlined/24/000000/file.png" alt="paper" style="vertical-align: middle;">
             &nbsp;Paper (arXiv)
         </a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/Why-peace/F2F-AP" target="_blank" style="color: #1E90FF;">
-            <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt="code" style="vertical-align: middle;">
-            &nbsp;Code (GitHub)
+        <a href="https://github.com/f2f-ap/f2f-ap" target="_blank" rel="noopener noreferrer" class="btn btn-dark d-inline-flex align-items-center" style="border-radius: 6px; padding: 8px 20px; font-weight: 500; transition: all 0.3s ease;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 8px;">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+        Code (GitHub)
         </a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <!-- <a href="https://zhuanlan.zhihu.com/p/714402773" target="_blank" style="color: #1E90FF;">
+        <!-- <a href="https://zhuanlan.zhihu.com/p/714402773" target="_blank" rel="noopener noreferrer" style="color: #1E90FF;">
             <img src="https://img.icons8.com/material-outlined/24/000000/zhihu.png" alt="code" style="vertical-align: middle;">
             &nbsp;中文解读 (Zhihu)
         </a> -->
     </p>
+</header>
 
-    <!-- <div class="btn-group" role="group" aria-label="Top menu">
-        <a class="btn btn-primary" href="https://arxiv.org/abs/2006.09661">Paper</a>
-        <a class="btn btn-primary" href="https://colab.research.google.com/github/vsitzmann/siren/blob/master/explore_siren.ipynb">Colab Notebook</a>
-        <a class="btn btn-primary" href="https://dcato98.github.io/playground/#activation=sine">Tensorflow Playground</a>
-        <a class="btn btn-primary" href="https://github.com/vsitzmann/siren">Code</a>
-        <a class="btn btn-primary" href="https://drive.google.com/drive/u/1/folders/1_iq__37-hw7FJOEUK1tX7mdp8SKB368K">Data</a>
-    </div> -->
-</div>
+<main class="container">
 
-<div class="container">
-    <!-- <div class="vcontainer">
-        <iframe class='video' src="https://www.youtube.com/embed/Wq-cIRnKhw0" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-    </div>
-    <p>
-            If video does not load, click <a href="https://cloud.tsinghua.edu.cn/f/82bc67d4775c4f0ea8f8/?dl=1">HERE</a> to download.
-        </p> -->
-
-    <div style="text-align: center;">
+    <div class="demo-frame" style="text-align: center;">
         <video controls playsinline style="max-width: 100%; height: auto;">
-            <source src="videos/demo_tiny.mp4" type="video/mp4">
+            <source src="videos/F2F-AP_demo_pipeline.mp4" type="video/mp4">
         </video>
     </div>
 
     <div class="section">
-        <h2>Abstract</h2>
+        <h2 class="text-center" style="color: #4a148c; font-weight: bold; margin-bottom: 20px;">Abstract</h2>
         <hr>
         <p>
             Asynchronous inference has emerged as a prevalent paradigm in robotic manipulation, achieving significant progress in ensuring trajectory smoothness and efficiency. However, a systemic challenge remains unresolved, as inherent latency causes generated actions to inevitably lag behind the real-time environment. This issue is particularly exacerbated in dynamic scenarios, where such temporal misalignment severely compromises the policy's ability to interpret and react to rapidly evolving surroundings. In this paper, we propose a novel framework that leverages predicted object flow to synthesize future observations, incorporating a flow-based contrastive learning objective to align the visual feature representations of predicted observations with ground-truth future states. Empowered by this anticipated visual context, our asynchronous policy gains the capacity for proactive planning and motion, enabling it to explicitly compensate for latency and robustly execute manipulation tasks involving actively moving objects. Experimental results demonstrate that our approach significantly enhances responsiveness and success rates in complex dynamic manipulation tasks.
         </p>
-        <!-- add a image here-->
         <div class="row align-items-center">
             <div class="col justify-content-center text-center">
-                <img src="images/teaser.png" alt="pipeline" width="100%">
+                <img src="images/teaser.png" alt="teaser" width="100%">
             </div>
         </div>
     </div>
 
     <div class="section">
-        <h2>Approach</h2>
+        <h2 class="text-center" style="color: #4a148c; font-weight: bold; margin-bottom: 20px;">Approach</h2>
         <hr>
         <p>
             F2F-AP aims to resolve the latency problem inherent in asynchronous policies by utilizing temporally aligned future proprioceptive states and visual observations, which can be formulated as follows:
         </p>
-        <p style="text-align: center;">
+        <p class="equation" style="text-align: center;">
             <i>&pi;(<b>a</b><sub>t+H:t+H+n</sub> | <b>s</b><sub>t+H</sub>, o&#770;<sub>t+H</sub>)</i>
         </p>
         <p>
             First, F2F-AP employs predicted object flow as a bridge to synthesize future observations, ensuring alignment with the ground truth within the feature space. Furthermore, the action chunks generated by F2F-AP are strictly aligned with the exact moment of execution, effectively eliminating the need for discarding initial <i>H</i> action steps or employing post-hoc action fusion algorithms. Through this design, F2F-AP substantially improves the model's performance on dynamic tasks.
         </p>
-        <!-- add a image here-->
         <div class="row align-items-center">
             <div class="col justify-content-center text-center">
                 <img src="images/pipeline.png" alt="pipeline" width="90%">
@@ -121,62 +99,83 @@
         <p>
             <b>Left:</b> Illustration of the asynchronous inference achieved by F2F-AP. The model plans from a future state <i>s</i><sub>t3</sub> towards the anticipated position <i>t</i><sub>6</sub> of the interacting object at timestamp <i>t</i><sub>1</sub>, enabling advance planning and motion despite real-world system latency. <b>Middle:</b> The model takes robot states and multi-frame RGB images as input. A <i>Flow Predictor</i> extracts object flow to synthesize augmented future observations, which are then processed by the <i>Policy</i> as future observation to generate action chunks. <b>Right:</b> We introduce contrastive learning to minimize the feature distance between predicted and real future observations. The <span style="color: rgb(241, 191, 51);">&#9733;</span> indicates that these features share the same encoder.
         </p>
+        <h3 class="text-center" style="color: #4a148c; font-weight: bold; margin-bottom: 20px;">Visualization of Modules</h3>
+        <p>
+            A task-specific flow predictor, robust to occlusion, can be trained using under 10 minutes of video data. The figure above illustrates the flow generation across different tasks.
+        </p>  
+        <div class="row align-items-center">
+            <div class="col justify-content-center text-center">
+                <img src="images/visualization_flow.png" alt="visualization_flow" width="85%">
+            </div>
+        </div>    
+        <p>
+            This heatmap visualizes the feature-space similarity between flow-augmented observations and future RGB observations. The shifted high-similarity band indicates that F2F-AP learns to align current flow-enhanced visual features with future observations, providing the policy with predictive visual information.
+        </p>
+        <div class="row align-items-center">
+            <div class="col justify-content-center text-center">
+                <img src="images/contrastive_learning.png" alt="contrastive_learning" width="80%">
+            </div>
+        </div>        
     </div>
 
     <div class="section">
-        <h2>Experiments</h2>
+        <h2 class="text-center" style="color: #4a148c; font-weight: bold; margin-bottom: 20px;">Experiments</h2>
         <hr>
         <p>
-            To assess the capability of F2F-AP in real-time dynamic scenarios, we designed five tasks for grasping moving objects, executed on two different robots.
+            To assess the capability of F2F-AP in real-time dynamic scenarios, we designed seven tasks for interacting with moving objects, executed on two different robots.
         </p>
-        <!-- add a image here-->
         <div class="row align-items-center">
             <div class="col justify-content-center text-center">
-                <img src="images/exp.png" alt="pipeline" width="90%">
+                <img src="images/visualization.png" alt="visualization_exp" width="100%">
             </div>
         </div>
+
+        <div class="evaluation-videos" style="margin-top: 40px; margin-bottom: 40px;">
+            <h3 class="text-center" style="color: #4a148c; font-weight: bold; margin-bottom: 20px;">Evaluation Videos</h3>
+            
+        <div class="video-controls d-flex justify-content-center align-items-center mb-3" style="gap: 15px;">
+            <select aria-label="Task" id="taskSelect" class="form-control" style="width: auto; min-width: 150px; cursor: pointer;">
+            </select>
+
+            <select aria-label="Video" id="conditionSelect" class="form-control" style="width: auto; min-width: 150px; cursor: pointer;">
+            </select>
+
+            <button id="shuffleBtn" class="btn btn-outline-secondary d-flex align-items-center" style="cursor: pointer; border-color: #d8b4e2; color: #4a148c;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;"><polyline points="16 3 21 3 21 8"></polyline><line x1="4" y1="20" x2="21" y2="3"></line><polyline points="21 16 21 21 16 21"></polyline><line x1="15" y1="15" x2="21" y2="21"></line><line x1="4" y1="4" x2="9" y2="9"></line></svg>
+                Shuffle
+            </button>
+        </div>
+
+            <div class="evaluation-frame" style="position: relative; width: 80%; margin:0 auto; background-color: #000; border-radius: 8px; overflow: hidden;">
+                <div style="position: absolute; top: 15px; left: 15px; color: #a5f3fc; font-size: 1.5rem; font-weight: bold; font-style: italic; z-index: 10; pointer-events: none; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
+                    F2F-AP
+                </div>
+                <video id="evalVideo" controls autoplay muted loop playsinline style="width: 100%; height: auto; display: block;">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <h3 class="text-center" style="color: #4a148c; font-weight: bold; margin-bottom: 20px;">Experiment Results</h3>
         <p>
             Through comparative experiments involving different inference modalities for imitation learning policies, we demonstrate that F2F-AP significantly enhances policy performance in real-time dynamic tasks with system latency.
         </p>
-        <div style="text-align: center;">
-            <video controls playsinline style="max-width: 50%; height: auto;">
-                <source src="videos/pick_rolling_bottal.mp4" type="video/mp4">
-            </video>
-        </div>
-        <p style="text-align: center;">
-            More stochastic and non-linear experiment.
-        </p>
-    </div>
-
-    <div class="section">
-        <h2>Bibtex</h2>
-        <hr>
-            <div class="bibtexsection">
-        @article{wei2026f2fap, 
-                      title={\href{http://arxiv.org/abs/2604.02408}
-                            {F2F-AP: Flow-to-Future Asynchronous Policy for Real-time Dynamic Manipulation}}, 
-                      author={Wei Haoyu and Xu Xiuwei and Cheng Ziyang and Yin Hang and Ma Angyuan and 
-                            Yu Bingyao and Zhou Jie and Lu Jiwen},
-                      year={2026}
-                }
+        <div class="row align-items-center">
+            <div class="col justify-content-center text-center">
+                <img src="images/exp_result.png" alt="exp_result" width="90%">
             </div>
+        </div>
+        <p>
+            To further validate the efficacy of our policy design, we conducted ablation studies targeting key aspects, including hyperparameters, core components, observation history, and varying latency levels.
+        </p>
+        <div class="row align-items-center">
+            <div class="col justify-content-center text-center">
+                <img src="images/ablation.png" alt="ablation" width="75%">
+            </div>
+        </div>
     </div>
 
     <hr>
-
-    <footer>
-        <!-- <h6>Acknowledgement</h6> -->
-        <p><small>The website template was borrowed from <a href="https://liuff19.github.io/S-Ray/">Fangfu Liu</a></small></p>
-    </footer>
-</div>
-
-    <p><center>
-        <div id="clustrmaps-widget" style="width:30%">
-            <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=kFz151nEcuKRytAOrv_ZStEGZzbk2kGGfM_QiBq9dpc&cl=ffffff&w=a"></script>    
-        </div>        
-        <br>
-        &copy; Haoyu Wei | Last update: Apr. 2026
-    </center></p>
+</main>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -187,6 +186,125 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+
+<script>
+    const videoData = {
+        "task_bottle": {
+            "name": "rolling bottle",
+            "videos": {
+                "1": { "name": "#1", "url": "videos/bottle-1.mp4" },
+                "2": { "name": "#2", "url": "videos/bottle-2.mp4" },
+            }
+        },
+        "task_car": {
+            "name": "pull-back car", 
+            "videos": {
+                "1": { "name": "#1", "url": "videos/car-1.mp4" },
+                "2": { "name": "#2", "url": "videos/car-2.mp4" },
+                "3": { "name": "#3", "url": "videos/car-3.mp4" }
+            }
+        },
+        "task_hammer": {
+            "name": "hammer handover",
+            "videos": {
+                "1": { "name": "#1", "url": "videos/hammer-1.mp4" },
+                "2": { "name": "#2", "url": "videos/hammer-2.mp4" },
+                "3": { "name": "#3", "url": "videos/hammer-3.mp4" },
+            }
+        },
+        "task_carrot": {
+            "name": "carrot",
+            "videos": {
+                "1": { "name": "#1", "url": "videos/carrot-1.mp4" }
+            }
+        },
+        "task_tape": {
+            "name": "tape",
+            "videos": {
+                "1": { "name": "#1", "url": "videos/tape-1.mp4" }
+            }
+        },
+        "task_can": {
+            "name": "chip-can",
+            "videos": {
+                "1": { "name": "#1", "url": "videos/can-1.mp4" },
+                "2": { "name": "#2", "url": "videos/can-2.mp4" },
+                "3": { "name": "#3", "url": "videos/can-3.mp4" }
+            }
+        },
+        "task_banana": {
+            "name": "banana",
+            "videos": {
+                "1": { "name": "#1", "url": "videos/banana-1.mp4" },
+                "2": { "name": "#2", "url": "videos/banana-2.mp4" }
+            }
+        },
+    };
+
+    const taskSelect = document.getElementById('taskSelect');
+    const conditionSelect = document.getElementById('conditionSelect');
+    const evalVideo = document.getElementById('evalVideo');
+    const shuffleBtn = document.getElementById('shuffleBtn');
+
+    function initTaskSelect() {
+        taskSelect.innerHTML = "";
+        for (const taskKey in videoData) {
+            const option = document.createElement("option");
+            option.value = taskKey;
+            option.textContent = videoData[taskKey].name;
+            taskSelect.appendChild(option); 
+        }
+    }
+
+    function updateConditionSelect() {
+        const currentTask = taskSelect.value;
+        const availableVideos = videoData[currentTask].videos;
+
+        conditionSelect.innerHTML = ""; 
+
+        for (const condKey in availableVideos) {
+            const option = document.createElement("option");
+            option.value = condKey;
+            option.textContent = availableVideos[condKey].name;
+            conditionSelect.appendChild(option);
+        }
+    }
+
+    function updateVideo() {
+        const taskKey = taskSelect.value;
+        const condKey = conditionSelect.value;
+        
+        if(taskKey && condKey && videoData[taskKey].videos[condKey]) {
+            const videoUrl = videoData[taskKey].videos[condKey].url;
+            evalVideo.src = videoUrl;
+            evalVideo.play().catch(e => console.log("Auto-play prevented", e));
+        }
+    }
+
+    taskSelect.addEventListener('change', () => {
+        updateConditionSelect(); 
+        updateVideo();
+    });
+
+    conditionSelect.addEventListener('change', updateVideo);
+
+    shuffleBtn.addEventListener('click', () => {
+        const taskKeys = Object.keys(videoData);
+        const randomTaskKey = taskKeys[Math.floor(Math.random() * taskKeys.length)];
+        taskSelect.value = randomTaskKey;
+        updateConditionSelect(); 
+
+        const condKeys = Object.keys(videoData[randomTaskKey].videos);
+        const randomCondKey = condKeys[Math.floor(Math.random() * condKeys.length)];
+        conditionSelect.value = randomCondKey;
+
+        updateVideo();
+    });
+
+    initTaskSelect();
+    updateConditionSelect();
+    updateVideo();
+</script>
 
 </body>
 </html>
